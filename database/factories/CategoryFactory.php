@@ -19,7 +19,7 @@ class CategoryFactory extends Factory
     {
         return [
             'name' => $this->faker->name(),
-            'menu_id' => $this->faker->numberBetween(1, 10),
+            'menu_id' => $this->faker->numberBetween(1, 2),
         ];
     }
 }

@@ -25,9 +25,9 @@ class UserSeeder extends Seeder
 
 
         $restaurantOwner = User::query()->create([
-            'name' => 'Owner Test',
-            'email' => 'owner@restaurant.com',
-            'password' => 'owner@1234',
+            'name' => 'Owner',
+            'email' => 'owner@bianca.com',
+            'password' => '12345678',
             'phone_number' => '01121478596',
         ]);
 
